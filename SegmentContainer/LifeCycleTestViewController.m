@@ -7,8 +7,12 @@
 //
 
 #import "LifeCycleTestViewController.h"
-#import "HLSLogger.h"
-#import "NSObject+HLSExtensions.h"
+
+@interface LifeCycleTestViewController ()
+
+@property (nonatomic, retain) UIColor *color;
+
+@end
 
 @implementation LifeCycleTestViewController
 
@@ -17,16 +21,22 @@
 - (id)initWithColor:(UIColor *)color
 {
     if ((self = [super initWithNibName:[self className] bundle:nil])) {
-        self.view.backgroundColor = color;
+        self.color = color;
     }
     return self;
 }
+
+#pragma mark Accessors and mutators
+
+@synthesize color = _color;
 
 #pragma mark View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = self.color;
     
     HLSLoggerInfo(@"Called for object %@", self);
 }

@@ -14,14 +14,16 @@
 		338D5D3C153F5FF200E99CC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338D5D3B153F5FF200E99CC8 /* main.m */; };
 		338D5D40153F5FF200E99CC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338D5D3F153F5FF200E99CC8 /* AppDelegate.m */; };
 		338D5D43153F5FF200E99CC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338D5D42153F5FF200E99CC8 /* ViewController.m */; };
-		338D5D46153F5FF200E99CC8 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338D5D44153F5FF200E99CC8 /* ViewController_iPhone.xib */; };
-		338D5D49153F5FF200E99CC8 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338D5D47153F5FF200E99CC8 /* ViewController_iPad.xib */; };
-		338D5D76153F707500E99CC8 /* libCoconutKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 338D5D75153F707500E99CC8 /* libCoconutKit.a */; };
+		338D5D46153F5FF200E99CC8 /* ViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338D5D44153F5FF200E99CC8 /* ViewController~iphone.xib */; };
+		338D5D49153F5FF200E99CC8 /* ViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338D5D47153F5FF200E99CC8 /* ViewController~ipad.xib */; };
 		338D5D78153F708500E99CC8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338D5D77153F708500E99CC8 /* MessageUI.framework */; };
 		338D5D7A153F708C00E99CC8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338D5D79153F708C00E99CC8 /* CoreData.framework */; };
 		338D5D7C153F709400E99CC8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338D5D7B153F709400E99CC8 /* QuartzCore.framework */; };
 		338D5D98153F72A500E99CC8 /* LifeCycleTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338D5D96153F72A500E99CC8 /* LifeCycleTestViewController.xib */; };
 		338D5D99153F72A500E99CC8 /* LifeCycleTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338D5D97153F72A500E99CC8 /* LifeCycleTestViewController.m */; };
+		6F2D4632157541AE00EF5E4F /* CoconutKit_bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D462F157541AE00EF5E4F /* CoconutKit_bootstrap.m */; };
+		6F2D4633157541AE00EF5E4F /* CoconutKit-resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F2D4630157541AE00EF5E4F /* CoconutKit-resources.bundle */; };
+		6F2D4634157541AE00EF5E4F /* CoconutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2D4631157541AE00EF5E4F /* CoconutKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,15 +39,17 @@
 		338D5D3F153F5FF200E99CC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		338D5D41153F5FF200E99CC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		338D5D42153F5FF200E99CC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		338D5D45153F5FF200E99CC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		338D5D48153F5FF200E99CC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		338D5D75153F707500E99CC8 /* libCoconutKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCoconutKit.a; path = "CoconutKit/CoconutKit/build/Release-iphoneos/libCoconutKit.a"; sourceTree = "<group>"; };
+		338D5D45153F5FF200E99CC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/ViewController~iphone.xib"; sourceTree = "<group>"; };
+		338D5D48153F5FF200E99CC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/ViewController~ipad.xib"; sourceTree = "<group>"; };
 		338D5D77153F708500E99CC8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		338D5D79153F708C00E99CC8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		338D5D7B153F709400E99CC8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		338D5D95153F72A500E99CC8 /* LifeCycleTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeCycleTestViewController.h; sourceTree = "<group>"; };
 		338D5D96153F72A500E99CC8 /* LifeCycleTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LifeCycleTestViewController.xib; sourceTree = "<group>"; };
 		338D5D97153F72A500E99CC8 /* LifeCycleTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeCycleTestViewController.m; sourceTree = "<group>"; };
+		6F2D462F157541AE00EF5E4F /* CoconutKit_bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoconutKit_bootstrap.m; sourceTree = "<group>"; };
+		6F2D4630157541AE00EF5E4F /* CoconutKit-resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "CoconutKit-resources.bundle"; sourceTree = "<group>"; };
+		6F2D4631157541AE00EF5E4F /* CoconutKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoconutKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,10 @@
 				338D5D7C153F709400E99CC8 /* QuartzCore.framework in Frameworks */,
 				338D5D7A153F708C00E99CC8 /* CoreData.framework in Frameworks */,
 				338D5D78153F708500E99CC8 /* MessageUI.framework in Frameworks */,
-				338D5D76153F707500E99CC8 /* libCoconutKit.a in Frameworks */,
 				338D5D30153F5FF200E99CC8 /* UIKit.framework in Frameworks */,
 				338D5D32153F5FF200E99CC8 /* Foundation.framework in Frameworks */,
 				338D5D34153F5FF200E99CC8 /* CoreGraphics.framework in Frameworks */,
+				6F2D4634157541AE00EF5E4F /* CoconutKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +91,7 @@
 		338D5D2E153F5FF200E99CC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				338D5D75153F707500E99CC8 /* libCoconutKit.a */,
+				6F2D462D157541AE00EF5E4F /* CoconutKit-1.1.4-Release.staticframework */,
 				338D5D79153F708C00E99CC8 /* CoreData.framework */,
 				338D5D33153F5FF200E99CC8 /* CoreGraphics.framework */,
 				338D5D31153F5FF200E99CC8 /* Foundation.framework */,
@@ -105,8 +109,8 @@
 				338D5D3F153F5FF200E99CC8 /* AppDelegate.m */,
 				338D5D41153F5FF200E99CC8 /* ViewController.h */,
 				338D5D42153F5FF200E99CC8 /* ViewController.m */,
-				338D5D44153F5FF200E99CC8 /* ViewController_iPhone.xib */,
-				338D5D47153F5FF200E99CC8 /* ViewController_iPad.xib */,
+				338D5D44153F5FF200E99CC8 /* ViewController~iphone.xib */,
+				338D5D47153F5FF200E99CC8 /* ViewController~ipad.xib */,
 				338D5D95153F72A500E99CC8 /* LifeCycleTestViewController.h */,
 				338D5D97153F72A500E99CC8 /* LifeCycleTestViewController.m */,
 				338D5D96153F72A500E99CC8 /* LifeCycleTestViewController.xib */,
@@ -125,6 +129,24 @@
 			);
 			name = "Supporting Files";
 			path = SegmentContainer;
+			sourceTree = "<group>";
+		};
+		6F2D462D157541AE00EF5E4F /* CoconutKit-1.1.4-Release.staticframework */ = {
+			isa = PBXGroup;
+			children = (
+				6F2D462E157541AE00EF5E4F /* Bootstrap */,
+				6F2D4630157541AE00EF5E4F /* CoconutKit-resources.bundle */,
+				6F2D4631157541AE00EF5E4F /* CoconutKit.framework */,
+			);
+			path = "CoconutKit-1.1.4-Release.staticframework";
+			sourceTree = "<group>";
+		};
+		6F2D462E157541AE00EF5E4F /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				6F2D462F157541AE00EF5E4F /* CoconutKit_bootstrap.m */,
+			);
+			path = Bootstrap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +201,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				338D5D3A153F5FF200E99CC8 /* InfoPlist.strings in Resources */,
-				338D5D46153F5FF200E99CC8 /* ViewController_iPhone.xib in Resources */,
-				338D5D49153F5FF200E99CC8 /* ViewController_iPad.xib in Resources */,
+				338D5D46153F5FF200E99CC8 /* ViewController~iphone.xib in Resources */,
+				338D5D49153F5FF200E99CC8 /* ViewController~ipad.xib in Resources */,
 				338D5D98153F72A500E99CC8 /* LifeCycleTestViewController.xib in Resources */,
+				6F2D4633157541AE00EF5E4F /* CoconutKit-resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +219,7 @@
 				338D5D40153F5FF200E99CC8 /* AppDelegate.m in Sources */,
 				338D5D43153F5FF200E99CC8 /* ViewController.m in Sources */,
 				338D5D99153F72A500E99CC8 /* LifeCycleTestViewController.m in Sources */,
+				6F2D4632157541AE00EF5E4F /* CoconutKit_bootstrap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,20 +234,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		338D5D44153F5FF200E99CC8 /* ViewController_iPhone.xib */ = {
+		338D5D44153F5FF200E99CC8 /* ViewController~iphone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				338D5D45153F5FF200E99CC8 /* en */,
 			);
-			name = ViewController_iPhone.xib;
+			name = "ViewController~iphone.xib";
 			sourceTree = "<group>";
 		};
-		338D5D47153F5FF200E99CC8 /* ViewController_iPad.xib */ = {
+		338D5D47153F5FF200E99CC8 /* ViewController~ipad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				338D5D48153F5FF200E99CC8 /* en */,
 			);
-			name = ViewController_iPad.xib;
+			name = "ViewController~ipad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +309,10 @@
 		338D5D4D153F5FF200E99CC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CoconutKit-1.1.4-Release.staticframework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SegmentContainer/SegmentContainer-Prefix.pch";
 				HEADER_SEARCH_PATHS = "CoconutKit/CoconutKit/**";
@@ -299,6 +327,10 @@
 		338D5D4E153F5FF200E99CC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CoconutKit-1.1.4-Release.staticframework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SegmentContainer/SegmentContainer-Prefix.pch";
 				HEADER_SEARCH_PATHS = "CoconutKit/CoconutKit/**";

@@ -9,23 +9,12 @@
 #import "ViewController.h"
 #import "LifeCycleTestViewController.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
-
-- (void)displayInsetViewController:(UIViewController *)viewController
-{
-    // We can even embbed navigation and tab bar controllers within a placeolder view controller!
-    UIViewController *insetViewController = viewController;
-    [self setInsetViewController:insetViewController withTransitionStyle:HLSTransitionStylePushFromTop];
-}
 
 - (IBAction)displayLifeCycleTest:(id)sender
 {
     UISegmentedControl *segments = (UISegmentedControl *)sender;
-    LifeCycleTestViewController *lifecycleTestViewController;
+    LifeCycleTestViewController *lifecycleTestViewController = nil;
     switch (segments.selectedSegmentIndex) {
         case 0:
             lifecycleTestViewController = [[LifeCycleTestViewController alloc] initWithColor:[UIColor redColor]];
@@ -42,12 +31,8 @@
         default:
             break;
     }
-    [self displayInsetViewController:lifecycleTestViewController];
-}
-
-- (IBAction)remove:(id)sender
-{
-    [self displayInsetViewController:nil];
+    
+    [self setInsetViewController:lifecycleTestViewController withTransitionStyle:HLSTransitionStylePushFromTop];
 }
 
 @end

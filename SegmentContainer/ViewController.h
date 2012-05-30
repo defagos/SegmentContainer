@@ -7,12 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HLSPlaceholderViewController.h"
 
 @interface ViewController : HLSPlaceholderViewController
 
-- (void)displayInsetViewController:(UIViewController *)viewController;
 - (IBAction)displayLifeCycleTest:(id)sender;
-- (IBAction)remove:(id)sender;
 
 @end
